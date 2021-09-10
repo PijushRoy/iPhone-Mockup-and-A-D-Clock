@@ -49,6 +49,30 @@
     border-bottom-right-radius: 8px
 }
 
+/*! iPhone Camera and Speaker Style  */
+.font-spk-cam {
+    position: absolute;
+    top: 21px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 3px;
+    border-radius: 25px;
+    background: #eaeaea;
+    z-index: 9999;
+}
+
+.font-spk-cam::before {
+    content: "";
+    position: absolute;
+    top: -1.5px;
+    left: 47px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #eaeaea;
+    z-index: 99999;
+}
 
 /*! Top left side time style */
 .top-bar-left {
